@@ -12,3 +12,19 @@ Para seguir este juego debes seguir las siguientes instruccuionees en la termina
 cd game
 python main.py
 ```
+
+## Creación de un paquete
+
+Primero se instaló matplotlib
+
+```sh
+pip install matplotlib
+```
+
+Luego, se creo una nueva carpeta charts con dos scripts de python charts.py y main.py
+Para ejecutarlos se hace lo siguiente
+
+```sh
+cd charts
+python main.py
+```
