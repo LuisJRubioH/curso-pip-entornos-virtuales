@@ -28,3 +28,27 @@ Para ejecutarlos se hace lo siguiente
 cd charts
 python main.py
 ```
+
+## Creación y activación de entornos virtuales
+
+Primero te ubicas dentro d ela carpeta dond evas a crear el ambiente virtual (virtual enviroment)
+
+```sh
+cd [Nombre_directorio]
+#creación del ambiente virtual
+python -m venv my-env #pones el nombre que quieras a tu ambiente virtual
+#activacion delo ambiente virual
+\.my-env\Scripts\Activate
+```
+
+# App proyect
+Para contribuir a este proyecto, debes realizar los siguientes pasos
+
+```sh
+git clone
+cd app
+python -m venv my-env
+\.my-env\Scripts\Activate
+pip install -r requirements.txt
+python main.py
+```
